@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">
+                    <img width="40.42" src="allPic/icons/logo.png" alt="This is a brand logo" srcset="">
+                </a>
+              <a class="navbar-brand" href="#">Leader Board</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success text-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+          <!-- end of navbar  -->
+          <div class="card container mt-4 bg-white ">
+                <h3 class="text-primary mt-3  fw-bold ms-3 mb-4">Top Players</h3>
+                <div class="card-body row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-1.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">John Smith</span>
+                    </div>
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-2.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">Pro Rasel</span>
+                    </div>
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-3.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">Abu Sufian</span>
+                    </div>
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-4.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">Shajedul Karim</span>
+                    </div>
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-5.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">Maruf Ahmed</span>
+                    </div>
+                    <div class="col mb-4 d-flex align-items-center">
+                        <img width="56" src="allPic/players/player-6.png" alt="">
+                        <span class="ms-2 fw-bolder fs-5">Mujahid Ahmed</span>
+                    </div>
+                </div>
+          
+            <!-- end of the section -->
+            <hr class="mt-0" style="border: 2px solid #8b7272;">
+            <!-- Horaizontal roll -->
+            <h3 class="fw-bold text-primary ms-4  mb-4">Top Blogs </h3>
+            <div class="card-body row row-cols-1 row-cols-lg-2 align-items-center">
+                <div class="d-flex my-3">
+                    <img width="170px" src="allPic/blogs/blog-1.png" alt="" srcset="">
+                    <div class=" my-3 ms-3">
+                        <span class="fw-bold fs-5 my-3 ">13 of My Favorite UI/UX Goodies</span>
+                        <h5><span style="color: gray;">By</span> <a class="text-decoration-none" href="">Danny Sapio</a></h5>
+                    </div>
+                </div>
+                <div class="d-flex my-3">
+                    <img width="170px" src="allPic/blogs/blog-2.png" alt="" srcset="">
+                    <div class=" my-3 ms-3">
+                        <span class="fw-bold fs-5 my-3 "> UI cheat sheet:list vs grids</span>
+                        <h5><span style="color: gray;">By</span> <a class="text-decoration-none" href="">Tess Gadd</a></h5>
+                    </div>
+                </div>
+                <div class="d-flex my-3">
+                    <img width="170px" src="allPic/blogs/blog-3.png" alt="" srcset="">
+                    <div class=" my-3 ms-3">
+                        <span class="fw-bold fs-5 my-3 ">7 typography tips for interface design</span>
+                        <h5><span style="color: gray;">By</span> <a class="text-decoration-none" href="">Jeremiah Lam</a></h5>
+                    </div>
+                </div>
+                <div class="d-flex my-3">
+                    <img width="170px" src="allPic/blogs/blog-4.png" alt="" srcset="">
+                    <div class=" my-3 ms-3">
+                        <span class="fw-bold fs-5 my-3 ">Your logo iscopied</span>
+                        <h5><span style="color: gray;">By</span> <a class="text-decoration-none" href="">Ferdinand Vogler</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Top players and blogs section end -->
+
+
+            <div class="card container-lg bg-white">
+                <h3 class="text-primary fw-bold ms-4 my-3">Leatest Courses</h3>
+                <div class="card-body d-sm-flex row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="p-3">
+                        <img class="w-100" src="allPic/courses/course-1.png" alt="" srcset="">
+                        <div class="my-2 mx-2 ">
+                            <p class="fw-bold lh-1 fs-4">React - The Complete Guide new tutorial 2020</p>
+                            <h5 class="text-danger  ">Reed Krakoff</h5>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="ms-2 ">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="fw-bold ms-2 text-black-50">4.5</span>
+                            </div>
+                            <div class="rounded-pill bg-danger px-2">
+                                <i class="far fa-clock"></i>1.30 h
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <img class="w-100" src="allPic/courses/course-2.png" alt="" srcset="">
+                        <div class="my-2 mx-2 ">
+                            <p class="fw-bold lh-1 fs-4">Powerpoint 2020 Master Powerpoint Course</p>
+                            <h5 class="text-danger ">Walter Scott</h5>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="ms-2 ">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="fw-bold ms-2 text-black-50">4.5</span>
+                            </div>
+                            <div class="rounded-pill bg-danger px-2">
+                                <i class="far fa-clock"></i>1.30 h
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <img class="w-100" src="allPic/courses/course-3.png" alt="" srcset="">
+                        <div class="my-2 mx-2 ">
+                            <p class="fw-bold lh-1 fs-4">The Complete JavaScript Course 2020</p>
+                            <h5 class="text-danger ">Jack Michel</h5>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="ms-2 ">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="fw-bold ms-2 text-black-50">4.5</span>
+                            </div>
+                            <div class="rounded-pill bg-danger px-2">
+                                <i class="far fa-clock"></i>1.30 h
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://kit.fontawesome.com/8b4558d311.js" crossorigin="anonymous"></script>
+            <script src="js/bootstrap.bundle.js"></script>
+    </main>
+    
+</body>
+</html>
